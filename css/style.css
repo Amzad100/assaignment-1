@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: auto;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -46,11 +46,87 @@ header {
 
 /* --------header style end------ */
 
-main{
-width: 1140;
-align-items: center;
+main {
+    width: 1144px;
+    align-items: center;
 }
 
-section{
+/* ------------first section style start--------- */
+section {
     margin-top: 130px;
 }
+
+.first-section-container {
+    height: 725px;
+}
+
+.first-section-item {
+    display: flex;
+}
+
+.first-section-text {
+    width: 400px;
+    height: 400px;
+    margin-top: 300px;
+    margin-left: 90px;
+}
+
+.first-section-title {
+    font-weight: 700px;
+    font-size: 40px;
+    color: #151414;
+}
+
+.first-section-description,
+.fa-check-item {
+    font-weight: 400px;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.fa-solid {
+    color: aqua;
+}
+
+/* ------------first section style end--------- */
+
+/* ------------second section style start--------- */
+
+.second-section-container {
+    height: 300px;
+    text-align: center;
+}
+
+.second-section-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.second-section-item {
+    display: flex;
+    text-align: center;
+}
+
+.second-section-item h4 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.second-section-item h5 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* ------------second section style end--------- */
+
+/* ------------third section style start--------- */
+
+/* ------------third section style end--------- */
