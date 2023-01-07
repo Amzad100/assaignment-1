@@ -61,29 +61,29 @@ header {
 /* --------header style end------ */
 
 
-/* ------------first section style start--------- */
-.first-section-container {
+/* ------------failures section style start--------- */
+.failures-section-container {
     height: 725px;
 }
 
-.first-section-item {
+.failures-section-item {
     display: flex;
 }
 
-.first-section-text {
+.failures-section-text {
     width: 400px;
     height: 400px;
     margin-top: 300px;
     margin-left: 90px;
 }
 
-.first-section-title {
+.failures-section-title {
     font-weight: 700px;
     font-size: 40px;
     color: #151414;
 }
 
-.first-section-description,
+.failures-section-description,
 .fa-check-item {
     font-weight: 400px;
     font-size: 16px;
@@ -96,27 +96,27 @@ header {
     color: aqua;
 }
 
-/* ------------first section style end--------- */
+/* ------------failures section style end--------- */
 
-/* ------------second section style start--------- */
-.second-section-container {
+/* ------------plans section style start--------- */
+.plans-section-container {
     height: 300px;
     text-align: center;
 }
 
-.second-section-title {
+.plans-section-title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 40px;
     color: #151414;
 }
 
-.second-section-item {
+.plans-section-item {
     display: flex;
     text-align: center;
 }
 
-.second-section-item h4 {
+.plans-section-item h4 {
     margin-top: 30px;
     margin-bottom: 15px;
     font-weight: 700;
@@ -124,16 +124,16 @@ header {
     color: #151414;
 }
 
-.second-section-item h5 {
+.plans-section-item h5 {
     font-weight: 500;
     font-size: 25px;
     color: #737272;
 }
 
-/* ------------second section style end--------- */
+/* ------------plans section style end--------- */
 
-/* ------------third section style start--------- */
-.third-section-container {
+/* ------------gradient section style start--------- */
+.gradient-section-container {
     height: 300px;
     background:
         linear-gradient(to right, rgb(207, 31, 4), rgb(237, 211, 211)),
@@ -141,14 +141,14 @@ header {
     background-blend-mode: multiply;
 }
 
-.third-section-item {
+.gradient-section-item {
     margin: 0;
     width: 460px;
     padding-left: 60px;
     padding-top: 60px;
 }
 
-.third-section-title {
+.gradient-section-title {
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
@@ -166,7 +166,7 @@ header {
     color: #F15B22;
 }
 
-/* ------------third section style end--------- */
+/* ------------gradient section style end--------- */
 
 
 /* ------------contact section style start--------- */
@@ -325,6 +325,7 @@ footer {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
 }
+
 /* ------------footer section right-content style end--------- */
 /* ------------footer section style end--------- */
 
